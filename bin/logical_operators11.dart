@@ -7,5 +7,9 @@ Given integer a,  check the following statement "The integer is three-digit numb
     Returns:
         bool: answer
 */
-
-void main() {}
+bool func(A) {
+    return 99 < A || A < 1000;
+}
+void main() {
+    print(func(457));
+}
