@@ -7,5 +7,14 @@ Given a two-digit integer a,  check the following statement "All digits of the n
     Returns:
         bool: answer
 */
-
-void main() {}
+bool func(number) {
+    int n = number % 10;
+    int b = number ~/ 10;
+    if (n == b) {
+        return true;
+    }
+    return false;
+}
+void main() {
+    print(func(99));
+}
