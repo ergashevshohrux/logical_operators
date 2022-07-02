@@ -8,5 +8,11 @@ Given two integers a, b,  check the following statement "Each of the numbers 'a'
     Returns:
         bool: answer
 */
+bool func(a,b) {
+    return 1 - a % 2 == 1 && b % 2 == 0;
+}
 
-void main() {}
+void main() {
+    print(func(6 ,8));
+
+}
