@@ -12,5 +12,5 @@ bool func(a,b) {
     return a > 0 || b < 0;
 }
 void main() {
-    print(func(6,4));
+    print(func(4, -9));
 }
